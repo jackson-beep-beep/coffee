@@ -52,17 +52,6 @@ footer{
 	clear: both
 }
 
-.articlelarge{
-	width: 616px;
-	height: 673px;
-	background-color: whitesmoke;
- 	padding-top: 10px;
- 	padding-right: 10px;
- 	padding-bottom: 10px;
- 	padding-left: 10px;
-
-}
-
 .articlemedium{
 	width: 525px;
 	height: 673px;
@@ -72,6 +61,20 @@ footer{
  	padding-bottom: 10px;
  	padding-left: 10px;
 	float:right
+}
+
+.articlelarge{
+	width: 616px;
+	height: 673px;
+	background-color: whitesmoke;
+ 	padding-top: 10px;
+ 	padding-right: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 10px;
+	float: left
+}
+
+
 	
 }
 
