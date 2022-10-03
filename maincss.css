@@ -29,14 +29,56 @@ nav{
 
 aside{
 	width: 249px;
-	height: 676px;
+	height: 673px;
 	background-color: #949C7C;
 	margin-right: 10px;
-	margin-left: 10px
+	margin-left: 10px;
+	float: left
 }
 
+#main{
+	width: 1161px;
+	height: 673px;
+	background-color: #949C7C;
+	margin-right: 10px;
+	float: left
+}
 
+footer{
+	width: 100%;
+	height: 123px;
+	background-color: #DAC2CC;
+	margin-top: 10px;
+	clear: both
+}
 
+.articlelarge{
+	width: 616px;
+	height: 673px;
+	background-color: whitesmoke;
+ 	padding-top: 10px;
+ 	padding-right: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 10px;
+
+}
+
+.articlemedium{
+	width: 525px;
+	height: 673px;
+	background-color: #949C7C;
+ 	padding-top: 10px;
+ 	padding-right: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 10px;
+	float:right
+	
+}
+
+#demo{
+	font-family: Baskerville, 'Palatino Linotype'; 
+	color: #57655E;
+}
 
 
 
