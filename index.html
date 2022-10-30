@@ -6,14 +6,23 @@
 <link href="maincss.css" rel="stylesheet" type="text/css">
 	
 	<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&display=swap');
+
+		li{
+			font-family: 'Indie Flower', cursive;
+		}
+		p {
+			font-family: 'Indie Flower', cursive;
+		}
 		h1 {
-			text-align: center; color: #57655E
+			text-align: center; color: #57655E; font-family: 'Indie Flower', cursive;
 		}
 		h2 {
-			text-align: center; color: #57655E
+			text-align: center; color: #57655E; font-family: 'Indie Flower', cursive;
 		}
 		h3 {
-			color: darkslategray
+			color: darkslategray; font-family: 'Indie Flower', cursive;
 		}
 	</style>
 </head>
@@ -30,12 +39,41 @@
 		<nav> </nav>
 <!-- -->
 		<aside>
+			
 			<p><center>&#x26E4;</center></p> 
+			
 			<h2><i>About Me</i></h2>
 					<p><b>My name is Jackson and I have been a semi-professional artist since late 2016.</b> I mainly focus on character art and design but my dream is to be a graphic designer. In my free time I enjoy doodling, reading, taking care of plants, and cooking / baking.&#128151
 			</p>
 			<p><center>&#x26E4;</center></p> 
-		</aside>
+			
+			
+			<h2><i>Contact Me</i></h2>
+			
+			
+			<form action="">
+				<label for="name">Name</label>
+				<input type="text" name="Name" id="name" placeholder="Name" required>
+<br>
+				
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="example@example.com">
+<br>
+				<input type="radio" id="commission" name="inquiry_type" value="Commission">
+				<label for="commission">Commission Inquiry </label><br>
+				<input type="radio" id="question" name="inquiry_type" value="Question">
+				<label for="question">Question</label><br>
+				<input type="radio" id="other" name="inquiry_type" value="Other">
+				<label for="other">Other</label>
+<br>
+				<label for="body">Body</label> <br>
+				<textarea id="body" name="body" placeholder="Add text Here"></textarea>		
+<br>
+				<button type="submit">Submit</button>
+<br>
+			<p><center>&#x26E4;</center></p> 			
+		  </form>
+	  </aside>
 <!-- -->
 	<section id="main">
 <!-- -->
@@ -65,7 +103,9 @@
 		<!-- -->
 		<article class="articlemedium">
 		<center>
-		  <img src="image/latenight.jpg" width="500" height="500" alt="A person working on their computer late at night."/>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/FJmYfTDU4h8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/AMWxMzc2XV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</center>
 		
 		</article>
@@ -79,9 +119,6 @@ document.getElementById("demo").innerHTML = "Thank you for reading!" ;
 	
 	
 	</div>
-	
-	
-	
 	
 </body>
 </html>
