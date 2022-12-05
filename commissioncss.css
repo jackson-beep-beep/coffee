@@ -27,15 +27,6 @@ nav{
 	margin-bottom: 10px
 }
 
-aside{
-	width: 249px;
-	height: 673px;
-	background-color: #949C7C;
-	margin-right: 10px;
-	margin-left: 10px;
-	float: left
-}
-
 #main{
 	width: 1420px;
 	height: 673px;
@@ -53,56 +44,27 @@ footer{
 	clear: both
 }
 
-.articlesmall1{
-	width: 300px;
-	height: 300px;
-	background-color: aliceblue;
-	margin-top: 34px;
-	margin-bottom: 23px;
-	margin-left: 50px;
-	float: left
+.articlesmall5{
+	width: 880px;
+	height: 500px;
+	background-color: #949C7C;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
 }
 
-.articlesmall2{
-	width: 300px;
-	height: 300px;
-	background-color: aliceblue;
-	margin-top: 34px;
-	margin-bottom: 23px;
-	margin-left: 40px;
-	float: left;
-}
-
-.articlesmall3{
-	width: 300px;
-	height: 300px;
-	background-color: aliceblue;
-	margin-top: 34px;
-	margin-bottom: 23px;
-	margin-left: 40px;
-	float: left;
-}
-
-.articlesmall4{
-	width: 300px;
-	height: 300px;
-	background-color: aliceblue;
-	margin-top: 34px;
-	margin-bottom: 23px;
-	margin-left: 40px;
-	float: left;
-}
-
-.articlelarge{
-	width: 1322px;
-	height: 300px;
+.articlelarge2{
+	width: 500px;
+	height: 500px;
 	background-color: clear;
  	padding-top: 10px;
  	padding-right: 10px;
  	padding-bottom: 10px;
  	padding-left: 10px;
 	font-size: 90px;
-	float: center;
+	float: left;
 	margin: auto;
 }
 
@@ -111,6 +73,7 @@ footer{
 	font-family: 'Indie Flower', cursive;
 	color: #57655E;
 }
+
 
 
 
