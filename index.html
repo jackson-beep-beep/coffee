@@ -5,6 +5,14 @@
 <title>index</title>
 <link href="maincss.css" rel="stylesheet" type="text/css">
 	
+	<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	
 	<style>
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&display=swap');
@@ -16,7 +24,7 @@
 			font-family: 'Indie Flower', cursive;
 		}
 		h1 {
-			text-align: center; color: #57655E; font-family: 'Indie Flower', cursive;
+			text-align: center; color: black; font-family: 'Indie Flower', cursive; font-size:
 		}
 		h2 {
 			text-align: center; color: #57655E; font-family: 'Indie Flower', cursive;
@@ -36,79 +44,54 @@
         </center>
 		</header>
 <!-- -->
-		<nav> </nav>
-<!-- -->
-		<aside>
-			
-			<p><center>&#x26E4;</center></p> 
-			
-			<h2><i>About Me</i></h2>
-					<p><b>My name is Jackson and I have been a semi-professional artist since late 2016.</b> I mainly focus on character art and design but my dream is to be a graphic designer. In my free time I enjoy doodling, reading, taking care of plants, and cooking / baking.&#128151
-			</p>
-			<p><center>&#x26E4;</center></p> 
-			
-			
-			<h2><i>Contact Me</i></h2>
-			
-			
-			<form action="">
-				<label for="name">Name</label>
-				<input type="text" name="Name" id="name" placeholder="Name" required>
-<br>
-				
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" placeholder="example@example.com">
-<br>
-				<input type="radio" id="commission" name="inquiry_type" value="Commission">
-				<label for="commission">Commission Inquiry </label><br>
-				<input type="radio" id="question" name="inquiry_type" value="Question">
-				<label for="question">Question</label><br>
-				<input type="radio" id="other" name="inquiry_type" value="Other">
-				<label for="other">Other</label>
-<br>
-				<label for="body">Body</label> <br>
-				<textarea id="body" name="body" placeholder="Add text Here"></textarea>		
-<br>
-				<button type="submit">Submit</button>
-<br>
-			<p><center>&#x26E4;</center></p> 			
-		  </form>
-	  </aside>
+		<nav> 
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Sales</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
+		</nav>
 <!-- -->
 	<section id="main">
 <!-- -->
 		<article class="articlelarge">
-			
-			<h2>About my art</h2>
 			<center>
-			<h3>General Informtion</h3>
-				<p>My main focus is digital art abut I enjoy traditional art too. My favorite mediums are:
-					<ol>
-						<li>Watercolor</li>
-						<li>Watercolor Gouache</li>
-						<li>Digital Art</li>
-						<li>Charcoal and Pencil</li>
-					</ol>
-				</p>
-			<h3>What do you draw and paint?</h3>
-				<p>When working digitaly I mainly do character art and designs of human, humanoid, furry, and pony charicters. But when I am working traditionaly I do a lot of studies and portrats along some character art.
-				</p>
-			<h3>What media platforms do you post on?</h3>
-				<p>I post on many platforms but you can find all of them <a href="https://linktr.ee/Jacksongermain" target="_blank">on my Linktree!</a>
-				</p>
-			<h3>Where should I go if I want to commission you?</h3>
-				<p>You can find my prices <a href="commissioninfo.html">here!</a>   </p>
-		</center>
+			<h1>Welcome</h1>
+			</center>
 		</article>
-		<!-- -->
-		<article class="articlemedium">
+<!-- -->
+		<article class="articlesmall1">
+		<img src="image/anger.jpg">
+		
+		</article>
+<!-- -->		
+		<article class="articlesmall2">
 		<center>
-		  <iframe width="560" height="315" src="https://www.youtube.com/embed/FJmYfTDU4h8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/AMWxMzc2XV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<img src="image/ashton.jpg">
 		</center>
 		
 		</article>
+<!-- -->
+		<article class="articlesmall3">
+		<center>
+		<img src="image/hellothere.jpg">
+		</center>
+		
+		</article>
+<!-- -->		
+		<article class="articlesmall4">
+		<img src="image/latenight.jpg">
+			
+		</article>
+<!-- -->		
 		</section>
 	<footer>
 	<h1 id="demo"></h1>
